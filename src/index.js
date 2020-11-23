@@ -27,6 +27,11 @@ import "./condition";
 import "./elementVar";
 import "./&&";
 import "./prevent";
+import "./table1";
+import "./table2";
+import "./key1";
+import "./key2";
+import "./key3";
 
 
 
