@@ -38,11 +38,11 @@ class LoginControl extends React.Component {
   }
   
   function UserGreeting(props) {
-    return <h1>欢迎回来!</h1>;
+    return <h1>This is elementVar<p>欢迎回来!</p></h1>;
   }
   
   function GuestGreeting(props) {
-    return <h1>请先注册。</h1>;
+    return <h1>This is elementVar<p>请先注册</p></h1>;
   }
   
   function Greeting(props) {

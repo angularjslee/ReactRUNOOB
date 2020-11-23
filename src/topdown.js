@@ -31,8 +31,10 @@ function FormattedDate(props) {
     render() {
       return (
         <div>
+          <h1>This is topdown</h1>
           <h1>Hello, world!</h1>
           <FormattedDate date={this.state.date} />
+          <hr></hr>
         </div>
       );
     }

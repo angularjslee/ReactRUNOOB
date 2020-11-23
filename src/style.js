@@ -6,6 +6,10 @@ var myStyle = {
     color: '#FF0000'
 };
 ReactDOM.render(
-    <h1 style = {myStyle}>This is Style</h1>,
+    <div>
+    <h1>This is Style</h1>
+    <h1 style = {myStyle}>This is Style</h1>
+    <hr></hr>
+    </div>,
     document.getElementById('style')
 );

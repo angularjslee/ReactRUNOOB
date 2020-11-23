@@ -29,10 +29,12 @@ function WarningBanner(props) {
     render() {
       return (
         <div>
+          <h1>This is prevent</h1>
           <WarningBanner warn={this.state.showWarning} />
           <button onClick={this.handleToggleClick}>
             {this.state.showWarning ? '隐藏' : '显示'}
           </button>
+          <hr></hr>
         </div>
       );
     }

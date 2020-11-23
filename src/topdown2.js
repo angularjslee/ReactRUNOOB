@@ -31,8 +31,10 @@ class Clock extends React.Component {
   render() {
     return (
       <div>
+        <h1>This is topdown2</h1>
         <h1>Hello, world!</h1>
         <FormattedDate date={this.state.date} />
+        <hr></hr>
       </div>
     );
   }

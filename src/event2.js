@@ -12,9 +12,13 @@ class LoggingButton extends React.Component {
  
   render() {
     return (
+      <div>
+      <h1>This is event2</h1>
       <button onClick={this.handleClick}>
         Click me
       </button>
+      <hr></hr>
+      </div>
     );
   }
 }
@@ -23,16 +27,20 @@ class LoggingButton extends React.Component {
 
 // 方法二
 class LoggingButton2 extends React.Component {
-  handleClick() {
+  handleClick2() {
     console.log('this is:', this);
   }
  
   render() {
     //  这个语法确保了 `this` 绑定在  handleClick 中
     return (
-      <button onClick={(e) => this.handleClick(e)}>
-        Click me
-      </button>
+      <div>
+        <h1>This is event3</h1>
+          <button onClick={(e) => this.handleClick2(e)}>
+            Click me
+          </button>
+        <hr></hr>
+      </div>
     );
   }
 }

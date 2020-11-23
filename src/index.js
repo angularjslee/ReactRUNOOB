@@ -41,7 +41,7 @@ import "./prevent";
 
   /*  React 元素渲染  */
       // Example1:
-      const element1 =<h1>E1-Hello, world!</h1>;
+      const element1 = <div><h1>E1-Hello, world!</h1><hr></hr></div>;
       ReactDOM.render(
           element1,
           document.getElementById('example1')
@@ -54,6 +54,7 @@ import "./prevent";
           <div>
             <h1>E2-Hello, world!</h1>
             <h2>现在是 {new Date().toLocaleTimeString()}.</h2>
+            <hr></hr>
           </div>
         );
         ReactDOM.render(
@@ -71,6 +72,7 @@ import "./prevent";
           <div>
             <h1>E3-Hello, world!</h1>
             <h2>现在是 {props.date.toLocaleTimeString()}.</h2>
+            <hr></hr>
           </div>
         );
       }
@@ -92,6 +94,7 @@ import "./prevent";
             <div>
               <h1>E4-Hello, world!</h1>
               <h2>现在是 {this.props.date.toLocaleTimeString()}.</h2>
+              <hr></hr>
             </div>
           );
         }

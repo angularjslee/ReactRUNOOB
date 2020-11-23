@@ -14,8 +14,10 @@ class WebSite extends React.Component {
     render() {
       return (
         <div>
+          <h1>This is props-state</h1>
           <Name name={this.state.name} />
           <Link site={this.state.site} />
+          <hr></hr>
         </div>
       );
     }
