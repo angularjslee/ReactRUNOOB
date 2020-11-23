@@ -5,12 +5,14 @@ function Mailbox(props) {
     const unreadMessages = props.unreadMessages;
     return (
       <div>
+        <p>&&</p>
         <h1>Hello!</h1>
         {unreadMessages.length > 0 &&
           <h2>
             您有 {unreadMessages.length} 条未读信息。
           </h2>
         }
+        <hr></hr>
       </div>
     );
   }

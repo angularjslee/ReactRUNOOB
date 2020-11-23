@@ -2,11 +2,23 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 function UserGreeting(props) {
-    return <h1>欢迎回来!</h1>;
+    return (
+      <div>
+        <h1>This is condition.</h1>
+        欢迎回来!
+        <hr></hr>
+      </div>
+    )
   }
   
   function GuestGreeting(props) {
-    return <h1>请先注册。</h1>;
+    return (
+    <div>
+      <h1>This is condition.</h1>
+      请先注册。
+      <hr></hr>
+      </div>
+    )
   }
   
   function Greeting(props) {

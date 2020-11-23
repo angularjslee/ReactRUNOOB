@@ -29,6 +29,7 @@ function App() {
         <Name name="菜鸟教程" />
         <Url url="http://www.runoob.com" />
         <Nickname nickname="Runoob" />
+        <hr></hr>
     </div>
     );
 }
