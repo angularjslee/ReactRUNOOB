@@ -18,6 +18,7 @@ class Popper extends React.Component{
               <p>hello</p>
               {/* 通过 bind() 方法传递参数。 */}
               <a href="https://reactjs.org" onClick={this.preventPop.bind(this, this.state.name)}>Click</a>
+              <hr></hr>
           </div>
       );
   }
