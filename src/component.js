@@ -14,18 +14,18 @@ ReactDOM.render(
 
 
 function Name(props) {
-    return <h1>网站名称：{props.name}</h1>;
+    return <p>网站名称：{props.name}</p>;
 }
 function Url(props) {
-    return <h1>网站地址：{props.url}</h1>;
+    return <p>网站地址：{props.url}</p>;
 }
 function Nickname(props) {
-    return <h1>网站小名：{props.nickname}</h1>;
+    return <p>网站小名：{props.nickname}</p>;
 }
 function App() {
     return (
     <div>
-        <h1>这是 复合组件</h1>
+        <p>这是 复合组件</p>
         <Name name="菜鸟教程" />
         <Url url="http://www.runoob.com" />
         <Nickname nickname="Runoob" />

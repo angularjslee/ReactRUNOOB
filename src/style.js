@@ -7,7 +7,6 @@ var myStyle = {
 };
 ReactDOM.render(
     <div>
-    <h1>This is Style</h1>
     <h1 style = {myStyle}>This is Style</h1>
     <hr></hr>
     </div>,

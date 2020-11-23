@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 function FormattedDate(props) {
-    return <h2>现在是 {props.date.toLocaleTimeString()}.</h2>;
+    return <p>现在是 {props.date.toLocaleTimeString()}.</p>;
   }
    
   class Clock extends React.Component {
@@ -32,8 +32,7 @@ function FormattedDate(props) {
       return (
         <div>
           <h1>This is topdown</h1>
-          <h1>Hello, world!</h1>
-          <FormattedDate date={this.state.date} />
+          <p><FormattedDate date={this.state.date} /></p>
           <hr></hr>
         </div>
       );

@@ -11,7 +11,7 @@ class Clock extends React.Component {
       return (
         <div>
           <h1>This is State</h1>
-          <h2>现在是 {this.state.date.toLocaleTimeString()}.</h2>
+          <p>现在是 {this.state.date.toLocaleTimeString()}.</p>
           <hr></hr>
         </div>
       );

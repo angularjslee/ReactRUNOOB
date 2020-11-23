@@ -19,7 +19,7 @@ class MyComponent extends React.Component {
       return (
         <div>
         <h1>This is propsVerify</h1>
-        <h1>Hello, {this.props.title}</h1>
+        <p>Hello, {this.props.title}</p>
         <hr></hr>
         </div>
       );

@@ -24,11 +24,10 @@ class WebSite extends React.Component {
 }
    
    
-   
   class Name extends React.Component {
     render() {
       return (
-        <h1>{this.props.name}</h1>
+        <p>{this.props.name}</p>
       );
     }
   }

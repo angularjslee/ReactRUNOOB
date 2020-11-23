@@ -6,7 +6,8 @@ class HelloMessage extends React.Component {
       return (
         <div>
         <h1>This is props-default</h1>
-        <h1>Hello, {this.props.name}</h1>
+        <p>Hello, {this.props.name}</p>
+        <hr></hr>
         </div>
       );
     }

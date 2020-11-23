@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 function HelloMessage(props) {
-    return <div><h1>This is props</h1><h1>Hello {props.name}!</h1></div>;
+    return <div><h1>This is props</h1><p>Hello {props.name}!</p><hr></hr></div>;
 }
  
 const element = <HelloMessage name="Runoob"/>;
