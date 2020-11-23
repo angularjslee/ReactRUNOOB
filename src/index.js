@@ -12,6 +12,7 @@ import './style';
 import './comment';
 import "./array";
 import "./component";
+import "./component-exercise";
 import "./state";
 import "./lifecycle";
 import "./topdown";
@@ -32,7 +33,9 @@ import "./table2";
 import "./key1";
 import "./key2";
 import "./key3";
-
+import "./demo/demo1-basic"
+import "./demo/demo2-component"
+import "./children";
 
 
 // Default Example
