@@ -35,7 +35,7 @@ class LoggingButton2 extends React.Component {
     //  这个语法确保了 `this` 绑定在  handleClick 中
     return (
       <div>
-        <h1>This is event3</h1>
+        <h1>This is event2</h1>
           <button onClick={(e) => this.handleClick2(e)}>
             Click me
           </button>

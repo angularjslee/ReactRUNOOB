@@ -34,7 +34,6 @@ import "./key1";
 import "./key2";
 import "./key3";
 import "./demo/demo1-basic"
-import "./demo/demo2-component"
 import "./children";
 
 

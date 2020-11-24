@@ -7,6 +7,7 @@ function Mailbox(props) {
       <div>
         <p>&&</p>
         <h1>Hello!</h1>
+        {/* 注重逻辑，如果长度大于1 ，显示长度信息 */}
         {unreadMessages.length > 0 &&
           <h2>
             您有 {unreadMessages.length} 条未读信息。

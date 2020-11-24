@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom';
 
 class HelloMessage extends React.Component {
     render() {
+      console.log(this);
+      console.log(props);
       return (
         <div>
         <h1>This is props-default</h1>
