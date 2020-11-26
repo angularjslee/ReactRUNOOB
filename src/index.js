@@ -23,6 +23,7 @@ import "./props-state";
 import "./propsVerify";
 import "./event";
 import "./event2";
+import "./event3";
 import "./eventPass";
 import "./condition";
 import "./elementVar";
@@ -35,6 +36,7 @@ import "./key2";
 import "./key3";
 import "./demo/demo1-basic"
 import "./children";
+// import "./demo/demo2-ParentChild";
 
 
 // Default Example
